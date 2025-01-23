@@ -3,7 +3,6 @@ import { usechatStore } from "../store/useChatStore";
 import Sidebar from "../components/Sidebar";
 import NoChatSelected from "../components/NoChatSelected";
 import ChatContainer from "../components/chatContainer";
-// import chatContainer from "../components/ChatContainer";
 
 const HomePage = () => {
   const { selectedUser } = usechatStore();
